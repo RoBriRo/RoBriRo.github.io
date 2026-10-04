@@ -276,7 +276,7 @@ nav li,nav a{white-space:nowrap}
 @media (prefers-reduced-motion:reduce){.track,h2 em,.hero h1 .p,.marquee,.bar i,.contact::before,nav b::before{animation:none}.js .rv{opacity:1;transform:none}}
 </style>
 
-<style>.lang{display:flex;gap:0;border:1px solid var(--line);flex:none}.lang button{font:700 12px var(--mono);letter-spacing:.08em;padding:6px 9px;background:transparent;color:var(--mute);clip-path:none}.lang button[aria-pressed=true]{background:var(--lime);color:var(--bg)}@media (min-width:701px){nav ul{flex:1;justify-content:flex-end}}</style><nav class="gut"><div class="wrap"><b>Rosa Briones</b><ul><li><a href="#sobre">Sobre mí</a></li><li><a href="#mundos">Dos mundos</a></li><li><a href="#proyecto">Outer Ring</a></li><li><a href="#freelance">Freelance</a></li><li><a href="#local">Local</a></li><li><a href="#tray">Trayectoria</a></li><li><a href="#contacto">Contacto</a></li></ul><div class="lang" role="group" aria-label="Idioma / Language"><button type="button" data-l="es" aria-pressed="true">ES</button><button type="button" data-l="en" aria-pressed="false">EN</button></div></div></nav>
+<style>.lang{display:flex;gap:0;border:1px solid var(--line);flex:none}.lang button{font:700 12px var(--mono);letter-spacing:.08em;padding:6px 9px;background:transparent;color:var(--mute);clip-path:none}.lang button[aria-pressed=true]{background:var(--lime);color:var(--bg)}@media (min-width:701px){nav ul{flex:1;justify-content:flex-end}}</style><style>h2 em{max-width:100%;hyphens:auto;-webkit-hyphens:auto;overflow-wrap:break-word}@media (max-width:360px){#freelance h2{font-size:27px}}</style><nav class="gut"><div class="wrap"><b>Rosa Briones</b><ul><li><a href="#sobre">Sobre mí</a></li><li><a href="#mundos">Dos mundos</a></li><li><a href="#proyecto">Outer Ring</a></li><li><a href="#freelance">Freelance</a></li><li><a href="#local">Local</a></li><li><a href="#tray">Trayectoria</a></li><li><a href="#contacto">Contacto</a></li></ul><div class="lang" role="group" aria-label="Idioma / Language"><button type="button" data-l="es" aria-pressed="true">ES</button><button type="button" data-l="en" aria-pressed="false">EN</button></div></div></nav>
 
 <header class="hero gut">
   
@@ -477,7 +477,7 @@ document.addEventListener('keydown',e=>{if(!lb.classList.contains('on'))return;i
 let x0=null;lb.addEventListener('touchstart',e=>x0=e.touches[0].clientX,{passive:true});lb.addEventListener('touchend',e=>{if(x0==null)return;const d=e.changedTouches[0].clientX-x0;if(Math.abs(d)>50)show(d>0?i-1:i+1);x0=null});
 })();
 </script>
-<footer class="gut"><div class="wrap foot"><span class="mono">Rosa Briones · Granada · 2026</span><span class="mono"><a href="#contacto">rosabrionesro@gmail.com</a> · <a href="https://www.instagram.com/tubarriopublicidad" target="_blank" rel="noopener">Instagram</a> · <a href="https://www.youtube.com/@OuterRingMMO/videos" target="_blank" rel="noopener">YouTube</a></span></div></footer>
+<footer class="gut"><div class="wrap foot"><span class="mono">Rosa Briones · Granada · 2026</span><span class="mono"><a href="#contacto">rosabrionesro@gmail.com</a></span></div></footer>
 
 <script>
 document.documentElement.classList.add('js');
